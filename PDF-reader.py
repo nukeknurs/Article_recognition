@@ -71,9 +71,9 @@ try:
     os.mkdir('Archive')
 except:
     pass
-file = open('Dictionary.log', 'a',encoding='utf-8')
+file = open('Dictionary.txt', 'a',encoding='utf-8')
 try:
-    dictionarycontent = open('Dictionary.log', 'r',encoding='utf-8')
+    dictionarycontent = open('Dictionary.txt', 'r',encoding='utf-8')
 except:
     pass
 
