@@ -38,8 +38,6 @@ def convert_pdf_to_txt(path):
     caching = True
     pagenos = set()
 
-    sys.stdout = Logger()
-
     for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages, password=password, caching=caching,
                                   check_extractable=True):
         interpreter.process_page(page)
@@ -51,6 +49,8 @@ def convert_pdf_to_txt(path):
     retstr.close()
 
     return text
+
+sys.stdout = Logger()
 
 onlyfiles = [f for f in os.listdir(os.getcwd())]
 pdffiles = []
@@ -97,10 +97,13 @@ for pdf in pdffiles:
     if str(doi23) in dictionarycontent2:
         print('Present:\t', pdf,'\n')
         continue
-
+    
     try:
         file_name = file_metadata['author'][0]['given'] + ' ' + file_metadata['author'][0]['family'] + ' - ' +file_metadata['title'][0] + ', ' + file_metadata['publisher'] + ', ' + str(file_metadata['published-print']['date-parts'][0][1]) + '_' + str(file_metadata['published-print']['date-parts'][0][0]) + '.pdf'
         print('Filename:\t',file_name)
+        #add error code if one of the lists for file_name values is empty ex. test (1)
+        
+
     except:
         continue
     dictionary += file_name + '  '+doi23+'\n'
