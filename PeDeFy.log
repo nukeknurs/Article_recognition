@@ -3,9 +3,8 @@ All files in current directory:
 
 .git
 .gitattributes
-Archive
-PDF-reader.py
 PeDeFy.log
+QARwD.py
 README.md
 test (1).pdf
 test (2).pdf
@@ -14,7 +13,6 @@ test (4).pdf
 test (5).pdf
 test (6).pdf
 test (7).pdf
-test (8).pdf
 
 
 All PDF files in current directory:
@@ -26,10 +24,13 @@ test (4).pdf
 test (5).pdf
 test (6).pdf
 test (7).pdf
-test (8).pdf
 
 
-Found DOI:	 10.1016/j.curtheres.2017.07.001
+Found DOI:	 10.1016/j.chemosphere.2018.07.074
+Filename:	 Sophia E. Whitlock - Environmentally relevant exposure to an antidepressant alters courtship behaviours in a songbird, Elsevier BV, 11_2018.pdf
+Absent file:	 Sophia E. Whitlock - Environmentally relevant exposure to an antidepressant alters courtship behaviours in a songbird, Elsevier BV, 11_2018.pdf
+Final filename:	 Sophia E. Whitlock - Environmentally relevant exposure to an antidepressant alters courtship behaviours in a songbird, Elsevier BV, 11_2018.pdf 
+
 Found DOI:	 10.1016/j.jsps.2011.11.003
 Filename:	 A. Al-Mohamadi - Dispensing medications without prescription at Saudi community pharmacy: Extent and perception, Elsevier BV, 1_2013.pdf
 Absent file:	 A. Al-Mohamadi - Dispensing medications without prescription at Saudi community pharmacy: Extent and perception, Elsevier BV, 1_2013.pdf
@@ -59,9 +60,4 @@ Found DOI:	 10.1016/j.envint.2019.01.083
 Filename:	 Sophia E. Whitlock - Detecting fluoxetine and norfluoxetine in wild bird tissues and feathers, Elsevier BV, 5_2019.pdf
 Absent file:	 Sophia E. Whitlock - Detecting fluoxetine and norfluoxetine in wild bird tissues and feathers, Elsevier BV, 5_2019.pdf
 Final filename:	 Sophia E. Whitlock - Detecting fluoxetine and norfluoxetine in wild bird tissues and feathers, Elsevier BV, 5_2019.pdf 
-
-Found DOI:	 10.1016/j.chemosphere.2018.07.074
-Filename:	 Sophia E. Whitlock - Environmentally relevant exposure to an antidepressant alters courtship behaviours in a songbird, Elsevier BV, 11_2018.pdf
-Absent file:	 Sophia E. Whitlock - Environmentally relevant exposure to an antidepressant alters courtship behaviours in a songbird, Elsevier BV, 11_2018.pdf
-Final filename:	 Sophia E. Whitlock - Environmentally relevant exposure to an antidepressant alters courtship behaviours in a songbird, Elsevier BV, 11_2018.pdf 
 
