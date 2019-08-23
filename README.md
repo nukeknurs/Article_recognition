@@ -30,7 +30,7 @@ conda install -c conda-forge pdfminer.six
 
 Oh yeah, that was made with use of `pdfminder.six`. Any other PDFminer probably won't work.
 
-This is how it should look like when you use it on `test` files 💻
+How it should look like when you use it on `test` files 💻
 ====
 
 ![img](https://i.imgur.com/9GW71qh.gif)
