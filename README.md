@@ -12,7 +12,9 @@ Usage
 ====
 Allrighty, first of all **remove `Archive` folder as well as `*.log` and `*.txt` files.**
 
-Then rename all PDF-files in the folder to `test`. Select them, press `F2`, type `test` and press `Enter`. Here, I got you homie.
+Then rename all PDF-files in the folder to `test`. Select them, press `F2`, type `test` and press `Enter`. 
+
+Here, I got you homie.
 
 ![img](https://i.imgur.com/y9ggmdw.gif)
 
